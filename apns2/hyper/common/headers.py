@@ -7,7 +7,7 @@ Contains hyper's structures for storing and working with HTTP headers.
 """
 import collections
 
-from hyper.common.util import to_bytestring, to_bytestring_tuple
+from apns2.hyper.common.util import to_bytestring, to_bytestring_tuple
 
 
 class HTTPHeaderMap(collections.MutableMapping):

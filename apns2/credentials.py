@@ -3,7 +3,7 @@ from typing import Optional, Tuple, TYPE_CHECKING
 
 import jwt
 
-from hyper import HTTP20Connection  # type: ignore
+from apns2.hyper import HTTP20Connection  # type: ignore
 from apns2.hyper.tls import init_context  # type: ignore
 
 if TYPE_CHECKING:
