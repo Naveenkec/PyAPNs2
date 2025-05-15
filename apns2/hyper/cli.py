@@ -14,10 +14,10 @@ from argparse import OPTIONAL, ZERO_OR_MORE
 from pprint import pformat
 from textwrap import dedent
 
-from hyper import HTTPConnection, HTTP20Connection
-from hyper import __version__
-from hyper.compat import is_py2, urlencode, urlsplit, write_to_stdout
-from hyper.common.util import to_host_port_tuple
+from .import HTTPConnection, HTTP20Connection
+from .import __version__
+from .compat import is_py2, urlencode, urlsplit, write_to_stdout
+from .common.util import to_host_port_tuple
 
 
 log = logging.getLogger('hyper')

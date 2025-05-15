@@ -4,10 +4,10 @@ from typing import Optional, Tuple, TYPE_CHECKING
 import jwt
 
 from hyper import HTTP20Connection  # type: ignore
-from hyper.tls import init_context  # type: ignore
+from apns2.hyper.tls import init_context  # type: ignore
 
 if TYPE_CHECKING:
-    from hyper.ssl_compat import SSLContext  # type: ignore
+    from apns2.hyper.ssl_compat import SSLContext  # type: ignore
 
 DEFAULT_TOKEN_LIFETIME = 2700
 DEFAULT_TOKEN_ENCRYPTION_ALGORITHM = 'ES256'

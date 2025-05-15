@@ -22,6 +22,9 @@ classifiers = [
     "Topic :: Software Development :: Libraries"
 ]
 
+[tool.setuptools]
+packages = ["apns2", "apns2.hyper"]
+
 [tool.poetry.dependencies]
 python = ">=3.7"
 cryptography = ">=1.7.2"
