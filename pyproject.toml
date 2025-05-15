@@ -29,6 +29,7 @@ packages = ["apns2", "apns2.hyper"]
 python = ">=3.7"
 cryptography = ">=1.7.2"
 pyjwt = ">=2.0.0"
+rfc3986 = ">=1.1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
